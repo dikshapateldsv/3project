@@ -1,0 +1,20 @@
+<script>
+var x = 10;
+
+function show()
+{
+
+console.log("show called..");
+}
+console.log(typeof x);
+console.log(typeof show)
+
+x = 'a';
+
+console.log(typeof x);
+x = show;
+console.log(typeof x);
+x();
+show();
+
+</script>
